@@ -1,0 +1,27 @@
+{
+	"name": "punjabistudios/yii2-aws-sdk",
+	"description": "AWS Sdk wrapper for Yii2",
+	"type": "library",
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"keywords": ["yii2", "aws", "sdk", "wrapper"],
+	"require": {
+		"php" : ">= 5.6",
+		"aws/aws-sdk-php": "~3.0",
+		"guzzlehttp/guzzle": "~6.0",
+		"paragonie/random_compat": "~2.0"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Puneet Sethi",
+			"email": "puneetsethi25@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+	    "psr-4": {
+			"punjabistudios\\aws\\": ""
+	    }
+	}	
+}
